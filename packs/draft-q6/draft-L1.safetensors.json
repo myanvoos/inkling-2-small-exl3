@@ -1,0 +1,65 @@
+{
+ "layers.1.self_attn.q_proj": {
+  "k": 4608,
+  "n": 6144,
+  "bits": 6,
+  "proxy_err": 0.00020016722009028954,
+  "rel_err": 0.017426706850528717,
+  "out_scales": true,
+  "seconds": 2.38
+ },
+ "layers.1.self_attn.k_proj": {
+  "k": 4608,
+  "n": 1024,
+  "bits": 6,
+  "proxy_err": 0.0002001113643198281,
+  "rel_err": 0.017414292320609093,
+  "out_scales": true,
+  "seconds": 0.71
+ },
+ "layers.1.self_attn.v_proj": {
+  "k": 4608,
+  "n": 1024,
+  "bits": 6,
+  "proxy_err": 0.0002050851709258314,
+  "rel_err": 0.01736695133149624,
+  "out_scales": true,
+  "seconds": 0.71
+ },
+ "layers.1.self_attn.o_proj": {
+  "k": 6144,
+  "n": 4608,
+  "bits": 6,
+  "proxy_err": 0.00020623888617959767,
+  "rel_err": 0.017369650304317474,
+  "out_scales": true,
+  "seconds": 2.36
+ },
+ "layers.1.mlp.gate_proj": {
+  "k": 4608,
+  "n": 18432,
+  "bits": 6,
+  "proxy_err": 0.00020675723671312047,
+  "rel_err": 0.017353881150484085,
+  "out_scales": true,
+  "seconds": 7.05
+ },
+ "layers.1.mlp.up_proj": {
+  "k": 4608,
+  "n": 18432,
+  "bits": 6,
+  "proxy_err": 0.0002059898266518157,
+  "rel_err": 0.017361214384436607,
+  "out_scales": true,
+  "seconds": 7.01
+ },
+ "layers.1.mlp.down_proj": {
+  "k": 18432,
+  "n": 4608,
+  "bits": 6,
+  "proxy_err": 0.0002054924541452842,
+  "rel_err": 0.01736873760819435,
+  "out_scales": true,
+  "seconds": 7.08
+ }
+}

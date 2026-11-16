@@ -1,0 +1,346 @@
+{
+ "what": "Inkling-2-Small non-expert linears (attention q/k/v/r/gate/o, router, LM head rows [0,200192)) as EXL3 6-bit mul1 trellises, for the kortexa-ai EXL3 2.59bpw expert export (e-dense, prefill lane phase 5)",
+ "source_weights": {
+  "model": "thinkingmachines/Inkling-2-Small (local snapshot)",
+  "copied_to": "scratch build directory (not published)",
+  "extract": {
+   "head": {
+    "file": "head.safetensors",
+    "tensors": 1,
+    "bytes": 1852637184,
+    "data_sha256": "09c8dccf30970ce42084dae27cb064f4ab2cadb7a83c3ac2558515cdd9d184e6"
+   },
+   "layer-00": {
+    "file": "layer-00.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "8689db537ae9dba49bff989c95cf3816cb34e4ec47dc7f7db0e14b8af9714a7f"
+   },
+   "layer-01": {
+    "file": "layer-01.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "34eab31fa18a49b32018aa16a0bd5287584cdc001310f57e3ead23a9959b02d8"
+   },
+   "layer-02": {
+    "file": "layer-02.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "b5904c7b1ab7decf5523b136b22667c17dc4e95fe077a07cc72e05f7bafb030e"
+   },
+   "layer-03": {
+    "file": "layer-03.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "babec8397a9abd6dc18928df8961d955b49b4f457dd5cd32c649ac8b7f5f4938"
+   },
+   "layer-04": {
+    "file": "layer-04.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "c222313a69c4ed4dda14deebaa1e1fbf3aef078d81abcaf8607517eabc5ad363"
+   },
+   "layer-05": {
+    "file": "layer-05.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "4aafa6d8118e114d6ba95cc890c4afef8043b223035cdda65ae527c02c87ce7f"
+   },
+   "layer-06": {
+    "file": "layer-06.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "e3dfd166928a0901a9dcc51f0f88f23d6645979fb0a54d682bbd459d1d70b076"
+   },
+   "layer-07": {
+    "file": "layer-07.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "cd9d05643fc7fc10b83d8fc55dac3bbcc2dba6bef0e430b2b39f6d33c699421a"
+   },
+   "layer-08": {
+    "file": "layer-08.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "2066b02be13902577db83e76e1d82437b2b9d7049eb8c8599edd7c4137f95865"
+   },
+   "layer-09": {
+    "file": "layer-09.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "74d227d6fe81b7fe410200a80a1c50d0746c372575cfab90493c29fa436bea7c"
+   },
+   "layer-10": {
+    "file": "layer-10.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "16261136f17aed8b140a6bc2c05492042f06eeaba8987ea38a6728bf9ea48a17"
+   },
+   "layer-11": {
+    "file": "layer-11.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "0bb2a0299487316064e3c520acbdd90bf6732d0441fa57334d112d2cae1f92ed"
+   },
+   "layer-12": {
+    "file": "layer-12.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "4782fa98ef4fedd0559ff569351b96c97186c0f7ec61d7a02b28dbdbba4a5380"
+   },
+   "layer-13": {
+    "file": "layer-13.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "a946a362a1e77d4a2acdb0662dc98b765cd32be9924107ee5fc08f4754ade205"
+   },
+   "layer-14": {
+    "file": "layer-14.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "d57d79fbe670a2384592b4abaf0b126d1492a136fed307f5f5b3535a17b61934"
+   },
+   "layer-15": {
+    "file": "layer-15.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "f573878c7bfc368bb5ca6464ebd5e3cd33b73537b6fcb11e3265a7b667c48754"
+   },
+   "layer-16": {
+    "file": "layer-16.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "286bab985daae64d41df424190d4795f04de77dfd7d131fd4bd5559ec1e4987c"
+   },
+   "layer-17": {
+    "file": "layer-17.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "2c3b72ee022d84f9f9fd9172e836b61a9ea6bbbe8fe3af3162ef0c2b2c996aaa"
+   },
+   "layer-18": {
+    "file": "layer-18.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "2a5e026c755cf746cf1cacbf1a6d2f0486d112420e3ba1186116ebc3b508d560"
+   },
+   "layer-19": {
+    "file": "layer-19.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "47812875e551fabd1487352eeb40c9be8e25f64a1e92b4a36dddb2f65da68d36"
+   },
+   "layer-20": {
+    "file": "layer-20.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "5182a464f98e090e7d490a75fdae3fe67e983cf46658ea2c314b5683f94aa47c"
+   },
+   "layer-21": {
+    "file": "layer-21.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "431c7e9eace1ec41b72320adb888da1ad108ed18d9a39a10d8611ca0b9be5492"
+   },
+   "layer-22": {
+    "file": "layer-22.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "ec99613e15a424959eb6a726292ea667ec80265b29c0d489f6259c74ef4e05b4"
+   },
+   "layer-23": {
+    "file": "layer-23.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "864f9595b0599ab57c1edc0450830f25e5b67a387ec0a14b2559abb7185f6012"
+   },
+   "layer-24": {
+    "file": "layer-24.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "18ebb0fd71b9debd205dfda67ea8ddf1a397404018b1f7dddab9f9261349a1b6"
+   },
+   "layer-25": {
+    "file": "layer-25.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "e1f3290325c694baa5c786944c2d6b020125b179588969d77bb3af629603396d"
+   },
+   "layer-26": {
+    "file": "layer-26.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "c71f729d7ce5c139a8a333c9309007f47e7cda3bf8ca25ee36392612e9718080"
+   },
+   "layer-27": {
+    "file": "layer-27.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "a4350d1e592e872aa15896f25ccf2e47748c06b6315ff3eec36a325434f52a3b"
+   },
+   "layer-28": {
+    "file": "layer-28.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "0a9d73d485e9aad9a430509697181e16c10540ba104bc1a3d3c293925619d1de"
+   },
+   "layer-29": {
+    "file": "layer-29.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "55eccf52062b6a31e7912d557a767ae56ef1a04404ee5b6d2008b44d088bc1cf"
+   },
+   "layer-30": {
+    "file": "layer-30.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "70c6348ebcde9616aac7dd74001570326c5db493da990b7ad6b5477d37d30ea7"
+   },
+   "layer-31": {
+    "file": "layer-31.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "b061a041d028bfbfd3076444a10332b11db9a387ca4c8c30ebbf60cffb5328a1"
+   },
+   "layer-32": {
+    "file": "layer-32.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "185ccb391264dfb6fdb0e30816fb2cbf1aac89dd56027d03a5fcc5dc296f3df9"
+   },
+   "layer-33": {
+    "file": "layer-33.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "d5fa7d98728fd5e4b511d4ab0a72d72934ec0c89491da67a9ff414504e2e4c6c"
+   },
+   "layer-34": {
+    "file": "layer-34.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "544c9ca7be828989952f90715f7c7f825974132da0c6bf847b3752cd38b3cd8d"
+   },
+   "layer-35": {
+    "file": "layer-35.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "916c58e7a1bb84ea3ca327b7411121587122b964c31aa3f42a5c96fe68ff6620"
+   },
+   "layer-36": {
+    "file": "layer-36.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "442680394dcd3447ab9fac24363b664daa9509ff65e24df936608341d21e0870"
+   },
+   "layer-37": {
+    "file": "layer-37.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "abb5ee1768076531c9297444c2b5fdf87f53e8c3e3566fcff05d5b032e9228da"
+   },
+   "layer-38": {
+    "file": "layer-38.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "f950dabeedeb4bb1927a014c0d9cd9f46d2fe05bf8303a3941726e3e3e17da83"
+   },
+   "layer-39": {
+    "file": "layer-39.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "798bf4ef7d3d8f3107a8f488ee1b4b0f698c81abf2245abf1cf128c20c0453d8"
+   },
+   "layer-40": {
+    "file": "layer-40.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "db215c69a63ecf51609f1eefc1c8f406b9a9f057a67c17a9eae97e69336c1abe"
+   },
+   "layer-41": {
+    "file": "layer-41.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "f87c1f8767228c4eaff6fbda9418e53b6cbbc531116db68c5d4c5121fbddb29d"
+   },
+   "layer-42": {
+    "file": "layer-42.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "72743225b5e308eac8a65fc629ee116c1c0f8823330e813971cbe9b21d896139"
+   },
+   "layer-43": {
+    "file": "layer-43.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "ad684e6caba168e6804802cf73d7506af65566632d5a3861298ebfdb8eb9d8c2"
+   },
+   "layer-44": {
+    "file": "layer-44.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "30ccdc81195a2e7de85bfd4a24e6ed4fe7857a33638e58cfa1bdfbfca6048653"
+   },
+   "layer-45": {
+    "file": "layer-45.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "4d868bcf45c187099616a3eff883ad4d3c0a2da36bcf99ff54021edf863caecf"
+   },
+   "layer-46": {
+    "file": "layer-46.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "4653cb6d8ab6dbaf81fee1e7cf135b50289b64382aa5d6caebaa1bdc473bf140"
+   },
+   "layer-47": {
+    "file": "layer-47.safetensors",
+    "tensors": 7,
+    "bytes": 199360512,
+    "data_sha256": "97535cd13386c3f41525907f5fe44c0106ca99a1ea2ca76510e91e1908f70075"
+   }
+  }
+ },
+ "calibration": {
+  "rows": 128,
+  "cols": 2048,
+  "tokens": 262144,
+  "mix": {
+   "c4": 16,
+   "code": 18,
+   "multilingual": 8,
+   "technical": 8,
+   "wiki": 36,
+   "tiny": 4,
+   "random": 8,
+   "chat": 30
+  },
+  "builder": "make_prompts.py (e-dense pipeline, not published)",
+  "corpus": "exllamav3 standard_cal_data (from the exllamav3 fork)",
+  "template": "chat_template.engine-D.jinja (the e-dense pipeline's template)",
+  "tokenizer": "thinkingmachines/Inkling-2-Small (local snapshot)/tokenizer.json",
+  "ids_sha256": "8b4ffa84691f21c485ad6a51c48b7bd5a94fcc49f865a45f741399aae5d59b42"
+ },
+ "hessians": {
+  "how": "tf-inkling2-run --hcap (hcap.zig): H = sum over rows of x^T x (cuBLASLt bf16 operands, fp32 sums) of each dense linear's input, during the prefill of every calibration row from position 0 in 1024-row chunks, on the kortexa EXL3 store at TP2 (the EXL3 deployment's knobs TF_INKLING2_EXL3_PROMPT=g2k8s2 TF_INKLING2_PREFILL_ATTN=tc, activations native)",
+  "binary_md5": "e4017d226e653597d685e880f2ecb36f",
+  "view": "the EXL3 view (symlinks into the export)",
+  "rank0": "rank 0/2: hcap: 262144 rows of 128 sequences in 369196 ms, layers [0, 24) + head true, written to the scratch build directory in 13585 ms; lowest MemAvailable 10.04 GiB",
+  "rank1": "rank 1/2: hcap: 262144 rows of 128 sequences in 368006 ms, layers [24, 48) + head false, written to the scratch build directory in 7516 ms; lowest MemAvailable 9.53 GiB"
+ },
+ "quantizer": {
+  "fork": "exllamav3 fork (commit 33da09b815a2d39ca58d5c225ca6374eec2aa03d)",
+  "commit": "33da09b815a2d39ca58d5c225ca6374eec2aa03d",
+  "quantize_py_sha256": "711ba10b337c455492a5ec0dc77b954eaa734a7f17f6004c8e4489016cf5902a",
+  "function": "exllamav3.modules.quant.exl3_lib.quantize.quantize_exl3",
+  "driver": "quantize_dense.py (e-dense pipeline, not published)",
+  "quant_args": {
+   "K": 6,
+   "mul1": true,
+   "apply_out_scales": null,
+   "sigma_reg": 0.025,
+   "seed": "2 + layer (the converter's module index); 51 for the head",
+   "NO_SWAP": true
+  },
+  "hessian_sharing": "one H_data per (layer, input), shared by the tensors that read it and by both widths, as the converter's capture_H[qmap]"
+ }
+}

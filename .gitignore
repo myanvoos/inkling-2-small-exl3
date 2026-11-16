@@ -1,0 +1,14 @@
+# build outputs
+engine/zig-out/
+engine/.zig-cache/
+# runtime state
+logs/
+state/
+# python
+__pycache__/
+*.py[cod]
+# os
+.DS_Store
+
+# pack binaries ship via Hugging Face, not git
+packs/**/*.safetensors

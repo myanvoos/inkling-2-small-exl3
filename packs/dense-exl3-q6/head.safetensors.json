@@ -1,0 +1,13 @@
+{
+ "model.llm.unembed": {
+  "k": 4608,
+  "n": 200192,
+  "bits": 6,
+  "proxy_err": 2.383118228585378e-05,
+  "rel_err": 0.01921018213033676,
+  "g_scale": 0.6353701121689872,
+  "out_scales": true,
+  "seconds": 105.02,
+  "hessian": "head"
+ }
+}

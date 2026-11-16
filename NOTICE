@@ -1,0 +1,23 @@
+Inkling-2-Small EXL3 — the serving stack
+Copyright 2026 the Inkling-2-Small EXL3 contributors
+
+This repository bundles:
+
+- engine/ — TensorFold, the native inference engine.
+  Copyright 2026 TensorFold contributors. Apache License 2.0 (see engine/LICENSE,
+  engine/NOTICE, engine/THIRD_PARTY_NOTICES.md). Source: https://github.com/ashhart/TensorFold
+  This copy is the tree the deployed binary was built from (version 1.2.7 plus the
+  unreleased inkling2 family and the EXL3 lane); it is vendored because the inkling2
+  family is not in a tagged upstream release.
+
+- gateway/ — the Anthropic/OpenAI gateway in front of the engine.
+  Copyright 2026 the Inkling-2-Small EXL3 contributors. Apache License 2.0.
+  Derived in part from vLLM's Anthropic Messages serving layer (Apache-2.0).
+
+- scripts/, config/, tests/ — the serving stack. Apache License 2.0.
+
+Model weights are NOT in this repository. They are downloaded from Hugging Face:
+  - kortexa-ai/Inkling-2-Small-EXL3-2.59bpw (Apache-2.0) — the EXL3 expert export
+  - thinkingmachines/Inkling-2-Small (Apache-2.0) — the native release (NVFP4/MXFP8)
+See docs/weights.md for the full list, including the two q6 packs published at
+myanvoos/Inkling-2-Small-EXL3-Sparks (derived works of the release, Apache-2.0).
